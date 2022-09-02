@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.12)
+
+set(proj_name pre_lab)
+project(${proj_name})
+
+include_directories(../include)
+
+set(CMAKE_BUILD_TYPE Release)
+
+add_executable(pre_lab main.cpp)
